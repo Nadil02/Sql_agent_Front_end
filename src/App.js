@@ -18,7 +18,7 @@ function App() {
     setAnswer('');
 
     try {
-      const response = await axios.post('http://127.0.0.1:8000/chatbot', {
+      const response = await axios.post('https://sql-agent-l1bq.onrender.com/chatbot', {
         query: question.trim()
       });
 
